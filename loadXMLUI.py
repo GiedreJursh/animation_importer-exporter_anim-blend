@@ -75,7 +75,7 @@ class UIController:
 #//////////////////////////////////////////////////////////////////////////////
 #==============================================================================
 # Imports Import and Export Scripts:
-sys.path.append("C:/Users/Shura/Desktop/BlendAnimations/")
+sys.path.append("C:/Users/.../BlendAnimations/")
 
 import BinaryExportForUI
 reload(BinaryExportForUI)
@@ -84,11 +84,11 @@ import BinaryImportForUI
 reload(BinaryImportForUI)
 
 # Loads All UI for the Script:
-ui = loadUI("C:/Users/Shura/Desktop/BlendAnimations/UI/ChooseOneAlternative.ui")
-importUI = loadUI("C:/Users/Shura/Desktop/BlendAnimations/UI/ChooseAnimations.ui")
-exportUI = loadUI("C:/Users/Shura/Desktop/BlendAnimations/UI/ExportAnimations.ui")
-jointUI = loadUI("C:/Users/Shura/Desktop/BlendAnimations/UI/AjustJointsForLayers.ui")
-bakeAnimUI = loadUI("C:/Users/Shura/Desktop/BlendAnimations/UI/BakeAnimations.ui")
+ui = loadUI("C:/Users/.../BlendAnimations/UI/ChooseOneAlternative.ui")
+importUI = loadUI("C:/Users/.../BlendAnimations/UI/ChooseAnimations.ui")
+exportUI = loadUI("C:/Users/.../BlendAnimations/UI/ExportAnimations.ui")
+jointUI = loadUI("C:/Users/.../BlendAnimations/UI/AjustJointsForLayers.ui")
+bakeAnimUI = loadUI("C:/Users/.../BlendAnimations/UI/BakeAnimations.ui")
 
 # Global lists
 # Skleton
